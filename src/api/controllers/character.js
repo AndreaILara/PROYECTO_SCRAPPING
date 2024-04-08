@@ -1,5 +1,5 @@
 const Character = require("../models/character");
-const character = require("../../../character.json")
+const character = require("../../character.json")
 
 const insertManyCharacter = async (req, res, next) => {
   try {

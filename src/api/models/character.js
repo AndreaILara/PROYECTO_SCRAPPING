@@ -2,8 +2,8 @@ const mongoose = require('mongoose');
 
 const characterSchema = mongoose.Schema(
   {
-    name: { type: String, required: true },
-    img: { type: String, required: true },
+    name: { type: String, required: true, trim: true },
+    image: { type: String, required: true, trim: true },
   },
   {
     timestamps: true,
